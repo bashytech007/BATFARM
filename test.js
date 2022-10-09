@@ -4,6 +4,7 @@ const url=require('url');
 const fs = require("fs");
 const replaceTemplate=require('./modules/replaceTemplate.js')
 
+const port=process.env||8000
  
 
 
@@ -58,6 +59,6 @@ const server=http.createServer((req,res)=>{
         res.end('<h1>Page not Found!</h1>')
     }
 })
-server.listen(8000,'127.0.0.1',()=>{
+server.listen(port,'127.0.0.1',()=>{
     console.log('server is cooking on port 8000');
 })
