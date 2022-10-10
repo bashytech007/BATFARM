@@ -4,7 +4,8 @@ const url=require('url');
 const fs = require("fs");
 const replaceTemplate=require('./modules/replaceTemplate.js')
 
-const port=process.env||8000
+const port=process.env.port||8000;
+
  
 
 
