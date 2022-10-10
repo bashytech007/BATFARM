@@ -4,8 +4,7 @@
   "description": "for the bat farm",
   "main": "test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node test.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "bashir",
   "license": "ISC",
