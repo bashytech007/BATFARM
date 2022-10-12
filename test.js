@@ -9,7 +9,6 @@ const port=process.env.port||8000;
  
 
 
-
 const tempOverview=fs.readFileSync(`${__dirname}/templates/template-overview.html`,'utf-8');
 const tempCard=fs.readFileSync(`${__dirname}/templates/template-card.html`,'utf-8');
 const tempProduct=fs.readFileSync(`${__dirname}/templates/template-product.html`,'utf-8');
@@ -60,6 +59,6 @@ const server=http.createServer((req,res)=>{
         res.end('<h1>Page not Found!</h1>')
     }
 })
-server.listen(port,'127.0.0.1',()=>{
+server.listen(port ,()=>{
     console.log('server is cooking on port 8000');
 })
