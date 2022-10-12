@@ -12,6 +12,7 @@
       rel="icon"
       href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/155/ear-of-maize_1f33d.png"
     />
+    <link rel="icon" href="https://images.emojiterra.com/twitter/v14.0/512px/1f1f3-1f1ec.png"/>
 
     <title>{%PRODUCTNAME%} {%IMAGE%} /// BAT FARM</title>
 
@@ -262,12 +263,20 @@
       .not-organic {
         display: none;
       }
+      .img{
+        width:30px;
+        height:20px;
+      }
+      .heading-img{
+        width:50px;
+        height:50px;
+      }
     </style>
   </head>
 
   <body>
     <div class="container">
-      <h1>🌽 BAT Farm 🥦</h1>
+      <h1>🌽 BAT<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Asiwaju_Bola_Ahmed_Tinubu_%285980497975%29_%28cropped%29.jpg/800px-Asiwaju_Bola_Ahmed_Tinubu_%285980497975%29_%28cropped%29.jpg" class="heading-img"> Farm 🥦</h1>
 
       <figure class="product">
         <div class="product__organic {%NOT_ORGANIC%}"><h5>Organic</h5></div>
@@ -287,7 +296,7 @@
         </div>
         <h2 class="product__name">{%PRODUCTNAME%}</h2>
         <div class="product__details">
-          <p><span class="emoji-left">🌍</span>From {%FROM%}</p>
+          <p><span class="emoji-left"><img src="https://images.emojiterra.com/twitter/v14.0/512px/1f1f3-1f1ec.png" class="img"></span>From {%FROM%}</p>
           <p><span class="emoji-left">❤️</span>{%NUTRIENTS%}</p>
           <p><span class="emoji-left">📦</span>{%QUANTITY%}</p>
           <p><span class="emoji-left">🏷</span>{%PRICE%}₦</p>
